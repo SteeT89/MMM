@@ -1,0 +1,89 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1A1A1D;
+}
+
+header {
+  background-color: #950740;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+main {
+  padding: 20px;
+}
+
+.description {
+  background-color: #4e4e50;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #C3073F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #950740;
+}
